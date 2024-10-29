@@ -7,7 +7,7 @@ import { config } from "./config";
 
 // gives permissions of stuff the bot can do (for some fucking reason discord calls servers guilds) 
 const client = new Client({
-  intents: ["Guilds", "GuildMessages", "DirectMessages"],
+  intents: ["Guilds", "GuildMessages", "DirectMessages", "MessageContent"],
 });
 
 // registers all the commands in the server (deploy-commands.ts)
